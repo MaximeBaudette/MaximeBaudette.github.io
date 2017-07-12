@@ -8,6 +8,7 @@ install:
 - tlmgr install moderncv
 - tlmgr install fontawesome
 script:
+- cd cv/
 - mkdir _build
 - pdflatex -halt-on-error -output-directory _build cv/CV.tex
 deploy:
