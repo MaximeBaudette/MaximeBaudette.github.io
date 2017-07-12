@@ -10,7 +10,7 @@ install:
 script:
 - cd cv/
 - mkdir _build
-- pdflatex -halt-on-error -output-directory _build cv/CV.tex
+- pdflatex -halt-on-error -output-directory _build CV.tex
 deploy:
   provider: releases
   api_key:
