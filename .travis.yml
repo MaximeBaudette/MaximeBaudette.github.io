@@ -10,13 +10,15 @@ install:
 script:
 - cd cv/
 - mkdir _build
-- pdflatex -halt-on-error -output-directory _build CV.tex
+- pdflatex -halt-on-error -output-directory _build CV_en.tex
+- pdflatex -halt-on-error -output-directory _build CV_fr.tex
 deploy:
   provider: releases
   api_key:
     secure: ZhNNL7sGNkXcJZ3/qrPkbxXt1OTh93De5cRUGl4YhvrejTajFFFU8cKxKf17YNpIV3R7fXxoU2TFN37tHD8XvLJspxlTo9GJv03CrpzIYtk3fF/5ThVyiAla4sdRDRLb6YuXc1rMd+lJtHMoQ++7u3HCT6ZgznTIRqNQe8vqwbq1wRQ6s8YCjdvpTlfd7yzvumYYrpztMBEVxiH7axMc0fUfONUnzvUCb4NU6UcBwdsenkz2LPgItQl0HCjvzoLkYyQi4Oeocxh1mIAcpIVudhk6FywA9pcZSOy2CiCAaDYP4QB14lnT3Whhhj5fCo8UEVImnpiAfTeLJRnRpPrD+1l29nkzxCpJrjebv9hsotzHqbGeJqLoTM9uRGblzZtIzMQVpHHE8111sF8Ss8N+e4yoREtgTHSBuZctlI8yp28jEQCDQaGzRlY6NbxMgFuHlfroI/4q/HOP13fDAqkd3g8eP9ojh09IPmY6b1CXy509+Zrst6+mvVpqmfzjYwy7b1imGYd+wj6kJq9dKRWg37qsDIt4Tkliv84zEZTXGg07hGZh49o8/NzI1jGDqhANl09dHqJv1vgYl4F+n9N2xqdV8qt6WBkb564r6Pewe/+n2i+hU3AzlbdEhdSlZf/MxXCkdyRBusqFFHL4w0gjvNrx73wKzqr5RwW/4Z4Q3YI=
   file:
-  - _build/CV.pdf
+  - _build/CV_en.pdf
+  - _build/CV_fr.pdf
   skip_cleanup: true
   on:
     tags: true
