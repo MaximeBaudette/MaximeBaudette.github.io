@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -19,7 +19,5 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
-
 github:
   repo:           https://github.com/maximebaudette
