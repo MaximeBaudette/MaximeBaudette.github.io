@@ -2,6 +2,7 @@
 layout: page
 title: About
 ---
+
 Hi there!
 
 I'm Maxime Baudette, a PhD student at KTH, Royal Institute of Technology in Stockholm, Sweden.
