@@ -4,6 +4,7 @@ before_install:
   | tar -JxC $HOME/texlive
 install:
 - PATH=$HOME/texlive/bin/x86_64-linux:$PATH
+- tlmgr option repository ctan
 - tlmgr update --self
 - tlmgr install moderncv
 - tlmgr install fontawesome
