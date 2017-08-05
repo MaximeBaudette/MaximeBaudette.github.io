@@ -11,7 +11,12 @@ redirect_from:
 {% include common-js.html %}
 <script src="{{ site.url }}/js/moment.min.js"></script>
 
-You can find the latest copy of my CV at [my latest CV](https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest).
+You can find the latest copy of my CV using the links below. It is prepared in both English and French.
+
+<div>
+      <a class="btn cv-en-download" role="button" title="CV in English" href="https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest">Download</a>
+      <a class="btn cv-fr-download" role="button" title="CV in French" href="https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest">Download</a>
+/div>
 
 <script type="text/javascript">
     $(document).ready(function () {
@@ -20,27 +25,10 @@ You can find the latest copy of my CV at [my latest CV](https://github.com/Maxim
 
     function GetLatestReleaseInfo() {
         $.getJSON("https://api.github.com/repos/MaximeBaudette/MaximeBaudette.github.io/releases/latest").done(function (release) {
-            var asset = release.assets[0];
-            var oneHour = 60 * 60 * 1000;
-            var oneDay = 24 * oneHour;
-            var dateDiff = new Date() - new Date(asset.updated_at);
-            var timeAgo;
-            if (dateDiff < oneDay)
-            {
-                timeAgo = (dateDiff / oneHour).toFixed(1) + " hours ago";
-            }
-            else
-            {
-                timeAgo = (dateDiff / oneDay).toFixed(1) + " days ago";
-            }
-            var releaseInfo = "My CV was updated " + timeAgo + " .";
-            $(".cv-download").attr("href", asset.browser_download_url);
-            $(".release-info").text(releaseInfo);
-            $(".release-info").fadeIn("slow");
+            var cvEn = release.assets[0];
+            var cvFr = release.assets[1];
+            $(".cv-en-download").attr("href", cvEn.browser_download_url);
+            $(".cv-fr-download").attr("href", cvFr.browser_download_url);
         });
     }
 </script>
-
-<p class="message">
-  My CV is available in both English and French, you can download it by clicking on **CV_en.pdf** / **CV_fr.pdf**, once you have clicked on the link above!
-</p>
