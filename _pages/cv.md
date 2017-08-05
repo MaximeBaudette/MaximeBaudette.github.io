@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+{% include common-js.html %}
+<script src="{{ site.url }}/js/moment.min.js"></script>
 
 You can find the latest copy of my CV at [my latest CV](https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest).
 
