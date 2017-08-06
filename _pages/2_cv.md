@@ -15,7 +15,7 @@ You can find the latest copy of my CV using the links below. It is prepared in b
 
 <div>
       <a class="btn cv-en-download" role="button" title="Download my CV in English" href="https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest">English</a>
-      <a class="btn cv-fr-download" role="button" title=""Download my CV in French" href="https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest">French</a>
+      <a class="btn cv-fr-download" role="button" title="Download my CV in French" href="https://github.com/MaximeBaudette/MaximeBaudette.github.io/releases/latest">French</a>
 </div>
 
 <script type="text/javascript">
