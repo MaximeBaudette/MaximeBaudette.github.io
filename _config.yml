@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Maxime B."
-  avatar           : "picture.png"
+  avatar           : "https://www.gravatar.com/avatar/952abe6bf92ad705d24519f95db4ca28"
   bio              : "PhD in progress ;-)"
   location         : "Stockholm, Sweden"
   employer         :
