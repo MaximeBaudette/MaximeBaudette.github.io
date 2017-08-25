@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% include common-js.html %}
-<script src="{{ site.url }}/js/moment.min.js"></script>
+<script src="{{ site.url }}/assets/js/vendor/jquery/jquery.min.js"></script>
+<script src="{{ site.url }}/assets/js/plugins/moment.min.js"></script>
 
 You can find the latest copy of my CV using the links below. It is prepared in both English and French.
 
