@@ -1,18 +1,22 @@
 sudo: false
 before_install:
-- mkdir -p $HOME/texlive && curl -L https://github.com/urdh/texlive-blob/releases/download/20170106/texlive.tar.xz
+  - rvm install 2.2.6
+  - gem install dropbox-deployment
+  - mkdir -p $HOME/texlive && curl -L https://github.com/urdh/texlive-blob/releases/download/20170106/texlive.tar.xz
   | tar -JxC $HOME/texlive
 install:
-- PATH=$HOME/texlive/bin/x86_64-linux:$PATH
-- tlmgr option repository ctan
-- tlmgr update --self
-- tlmgr install moderncv
-- tlmgr install fontawesome
+  - PATH=$HOME/texlive/bin/x86_64-linux:$PATH
+  - tlmgr option repository ctan
+  - tlmgr update --self
+  - tlmgr install moderncv
+  - tlmgr install fontawesome
 script:
-- cd cv/
-- mkdir _build
-- pdflatex -halt-on-error -output-directory _build CV_en.tex
-- pdflatex -halt-on-error -output-directory _build CV_fr.tex
+  - cd cv/
+  - mkdir _build
+  - pdflatex -halt-on-error -output-directory _build CV_en.tex
+  - pdflatex -halt-on-error -output-directory _build CV_fr.tex
+after_success:
+  - dropbox-deployment
 deploy:
   provider: releases
   api_key:
@@ -24,3 +28,6 @@ deploy:
   on:
     tags: true
     repo: MaximeBaudette/MaximeBaudette.github.io
+env:
+  matrix:
+    secure: AGzZbeiS4+hAcW2sigQceglRQufqiM0GlLL8SrCukEtDBO6riHDwrvXycn6U5xbJeT2JhxLUazKXIVuW0caU7wffmrEW/R2zX8kbb6La9fvRtMQBv1u3oiL5QBKNBA2UJm0uqOL5rwA57lTcBBsDqSyjdqer2YGyde+ca+/FcHJjTQxjWnYnYUbGvn30kqdnkPM9s4Cc9uKjolZ/vhNirQU260UxbnWtlIQTv4W1ViYDLrv/9U/IMevjnvDxXJQagfz1v6u2eBaU3zC/d2Y70Odn4t/bU6vpW3YsY0SxEX81gx0a3xO0sLBuPiJwSl7oFKCGKMjAEDK3JWgnEyvdTMIT+8YwNJI238DoTyGh7FbAmJkqNfieoZ10lUsD7Qc+Y+4y4Gv7juTABJrDKuUoJ24gUp4/TPljX2lD7zvZm79p+T7Y6ex1RFf4U7TtYEHIy7jUhC7vIHPCQCW9wcyV22n2Fjsct8uT6nwdEL5zUMRxW1JVkOwL+0xc3to5x4Dp664ghRu0/9ODxJHYOKOcpGKUDnPmoyx36cBsweBLmPNXdIrT567H+33CGfw6v7feYVGfuGBrK0SOSKUyialX0hLgrqCJf36fbViXna8qKZbokDaxFh+bwY9CYQYycnyeVeFwG8ETXyZ/uDFDXdS5LtMe0dddbrccr/FfE1MmKhM=
