@@ -1,7 +1,7 @@
 sudo: false
+language: ruby
 rvm:
-  -2.2.6
-
+  - 2.2.6
 before_install:
   - gem install dropbox-deployment
   - mkdir -p $HOME/texlive && curl -L https://github.com/urdh/texlive-blob/releases/download/20170106/texlive.tar.xz
