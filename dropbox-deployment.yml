@@ -1,0 +1,4 @@
+deploy:
+  dropbox_path: /Documents/CV # The path to the folder on Dropbox where the files will go
+  artifacts_path: ./upload_DB/ # can be a single file, or a path
+  debug: true # if you want to see more logs
