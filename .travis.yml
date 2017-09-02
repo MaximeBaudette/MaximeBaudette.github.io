@@ -3,7 +3,7 @@ before_install:
 - rvm install 2.2.6
 - gem install dropbox-deployment
 - mkdir -p $HOME/texlive && curl -L https://github.com/urdh/texlive-blob/releases/download/20170106/texlive.tar.xz
-| tar -JxC $HOME/texlive
+  | tar -JxC $HOME/texlive
 install:
 - PATH=$HOME/texlive/bin/x86_64-linux:$PATH
 - tlmgr option repository ctan
