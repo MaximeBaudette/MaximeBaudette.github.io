@@ -59,16 +59,15 @@ analytics:
   google:
     tracking_id          : "G-FLNK0P76YC"
 
-
 # Site Author
 author:
   name             : "Maxime B."
   avatar           : "https://www.gravatar.com/avatar/952abe6bf92ad705d24519f95db4ca28?s=200"
   bio              : "PhD in progress ;-)"
-  location         : "Stockholm, Sweden"
-  employer         :
+  location         : "Oakland, CA"
+  employer         : "LBNL"
   googlescholar    : "https://scholar.google.ca/citations?hl=en&user=Y8VOdUIAAAAJ"
-  email            : "baudette@kth.se"
+  email            : "baudette@lbl.gov"
   uri              :
   bitbucket        :
   codepen          :
