@@ -1,5 +1,6 @@
 ---
 title: "Meeting Booking Tool"
+date: 2017-07-31
 excerpt: "A simple meeting booking tool based on Google forms"
 collection: portfolio
 ---
