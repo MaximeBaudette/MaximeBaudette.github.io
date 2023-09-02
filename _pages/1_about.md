@@ -15,7 +15,7 @@ redirect_from:
 
 Hi there,
 
-I'm Maxime Baudette, an Energy Terchnology researcher at the [Lawrence Berkeley National Lab (LBNL)](https://eta.lbl.gov/people/Maxime-Baudette) in Berkeley, CA. I'm also a PhD candidate at the [Royal Institute of Technology (KTH)](https:/www.kth.se).
+I'm Maxime Baudette, an Energy Terchnology researcher at the [Lawrence Berkeley National Lab (LBNL)](https://eta.lbl.gov/people/Maxime-Baudette) in Berkeley, CA. I'm also a PhD candidate at the [Royal Institute of Technology (KTH)](https://www.kth.se).
 
 Thanks for reading!
 
