@@ -1,7 +1,25 @@
 *.fls
 *.fdb_latexmk
-_site
+
+# Dev Tools
 CLAUDE.md
 .claude
+
+# Deployment Targets
+_site
+node_modules
+
+# Downloaded/generated assets (populated by npm + deploy script)
+_sass/font-awesome
+_sass/tabler-icons
 assets/fonts
 assets/webfonts
+assets/css/bootstrap.min.css
+assets/css/bootstrap-toc.min.css
+assets/css/academicons.min.css
+assets/css/scholar-icons.css
+assets/css/jekyll-pygments-themes-github.css
+assets/css/jekyll-pygments-themes-native.css
+assets/js/bootstrap.bundle.min.js
+assets/js/bootstrap-toc.min.js
+assets/js/search/ninja-keys.min.js
