@@ -1,2 +1,5 @@
 *.fls
 *.fdb_latexmk
+_site
+CLAUDE.md
+.claude

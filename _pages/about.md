@@ -8,13 +8,13 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture_homepage.png
   image_circular: false
   more_info: >
-    <p>Energy Technology Area</p>
-    <p>Berkeley, CA 94720</p>
+    <p>Researcher in Energy Technologies</p>
+    <p>Oakland, CA 94608</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
