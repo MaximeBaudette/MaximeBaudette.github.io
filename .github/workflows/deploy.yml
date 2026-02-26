@@ -3,6 +3,8 @@ name: Deploy site
 on:
   push:
     branches:
+      - master
+      - dev
       - new_style
     paths:
       - "assets/**"
