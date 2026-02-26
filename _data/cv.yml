@@ -1,81 +1,217 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Maxime Baudette
-    - name: Location
-      value: Oakland, CA, USA
-    - name: Email
-      value: baudette@lbl.gov
-    - name: Languages
-      value: French, English, Swedish, German
+cv:
+  name: Maxime Baudette
+  label: Energy Technology Researcher
+  email: maxime@baudette.fr
+  location: Oakland, CA
+  image: ""
+  summary: An electrical engineer, with a background in power systems control and distributed energy resources (DERs)
+  
+  # address:
+  #   street: 2712 Broadway St
+  #   city: San Francisco
+  #   region: California
+  #   postalCode: CA 94115
+  #   countryCode: US
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Electric Power and Energy Systems
-      institution: KTH Royal Institute of Technology, Stockholm, Sweden
-      year: 2013 - present
-      description:
-        - "PMU-based Model Calibration for Power Systems and Control Optimization"
-        - "Supervisor: Prof. Luigi Vanfretti, SmarTS-Lab"
-    - title: MSc in Electrical Engineering
-      institution: KTH Royal Institute of Technology & CentraleSupélec
-      year: 2011 - 2013
-    - title: Engineering Degree
-      institution: CentraleSupélec (Supélec), Paris, France
-      year: 2009 - 2013
-    - title: Classes Préparatoires aux Grandes Écoles
-      institution: France
-      year: 2007 - 2009
+  sections:
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Scientific Engineering Associate
-      institution: Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA
-      year: Aug 2018 - present
-      description:
-        - Advanced distribution grid control using Distributed Energy Resources (DER)
-        - Phasor-based control methods and extremum seeking control algorithms
-        - Hardware-in-the-Loop validation and field demonstrations
-    - title: Visiting Researcher
-      institution: Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA
-      year: Jan - May 2018
-    - title: Research Engineer
-      institution: KTH Royal Institute of Technology, Stockholm, Sweden
-      year: March - June 2013
-      description:
-        - SmarTS-Lab — synchrophasor applications and real-time power system simulation
+    Education:
+      - institution: KTH Royal Institute of Technology
+        location: Stockholm, Sweden
+        url: https://www.kth.se/
+        area: Electric Power and Energy Systems
+        studyType: PhD
+        start_date: 2013
+        end_date: Present
+        score: ""
+        highlights:
+          - "PMU-based Model Calibration for Power Systems and Control Optimization"
+          - "Supervisor: Prof. Luigi Vanfretti, SmarTS-Lab"
 
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Advanced
-      items:
-        - Python
-        - MATLAB
-        - Modelica
-        - LabVIEW
-        - Opal-RT (Real-Time Simulation)
-    - title: Intermediate
-      items:
-        - Git
-        - Java
-        - LaTeX
-        - MS Office
-    - title: Basic
-      items:
-        - C
-        - Docker
-        - HTML
-        - LabVIEW RT/FPGA
-        - PHP
+      - institution: KTH Royal Institute of Technology
+        location: Stockholm, Sweden
+        url: https://www.kth.se/
+        area: Electrical Engineering
+        studyType: MSc
+        start_date: 2011
+        end_date: 2013
+       
+      - institution: CentraleSupélec (Supélec)
+        location: Gif-sur-Yvette, France
+        url: https://www.centralesupelec.fr/en/
+        area: Electrical Engineering
+        studyType: Engineering Degree
+        start_date: 2009
+        end_date: 2013
+      
+      - institution: Lycée Clemenceau
+        location: Nantes, France
+        url: https://gclemenceau.paysdelaloire.e-lyco.fr/les-cpge/
+        area: Maths, Physics, Engineering Science
+        studyType: Classes Préparatoires aux Grandes Écoles (CPGE)
+        start_date: 2007
+        end_date: 2009
 
-- title: Languages
-  type: list
-  contents:
-    - "French (native)"
-    - "English (advanced)"
-    - "Swedish (intermediate)"
-    - "German (basic)"
+    Experience:
+      - company: Lawrence Berkeley National Laboratory (LBNL)
+        position: Scientific Engineering Associate
+        location: Berkeley, CA
+        start_date: 2018
+        end_date: 2021
+        # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        highlights:
+          - Advanced distribution grid control using Distributed Energy Resources (DER)
+          - Phasor-based control methods and extremum seeking control algorithms
+          - Hardware-in-the-Loop validation and field demonstrations
+      
+      - company: Lawrence Berkeley National Laboratory (LBNL)
+        position: Visiting Researcher
+        location: Berkeley, CA
+        start_date: 2018
+        end_date: 2018
+
+      - company: KTH Royal Institute of Technology
+        position: Research Engineer
+        location: Stockholm, Sweden
+        start_date: 2013
+        end_date: 2013
+        highlights:
+          - SmarTS-Lab — synchrophasor applications and real-time power system simulation
+    
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
+
+    # Skills:
+    #   - name: Physics
+    #     level: Master
+    #     icon: fa-solid fa-hashtag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+
+# - title: Skills
+#   type: nested_list
+#   contents:
+#     - title: Advanced
+#       items:
+#         - Python
+#         - MATLAB
+#         - Modelica
+#         - LabVIEW
+#         - Opal-RT (Real-Time Simulation)
+#     - title: Intermediate
+#       items:
+#         - Git
+#         - Java
+#         - LaTeX
+#         - MS Office
+#     - title: Basic
+#       items:
+#         - C
+#         - Docker
+#         - HTML
+#         - LabVIEW RT/FPGA
+#         - PHP
+
+    Languages:
+      - name: French
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"
+      
+      - name: Swedish
+        summary: "Intermediate"
+      
+      - name: German
+        summary: "Basic"
+
+    Interests:
+      - name: Physics
+        icon: fa-solid fa-tag
+        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    
+    References:
+      - name: Jason MacDonald
+        icon: fa-solid fa-laptop
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+      - name: Luigi Vanfretti
+        icon: fa-solid fa-thumbtack
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    
+
+
+    # Awards:
+    #   - title: Nobel Prize in Physics
+    #     authors:
+    #       - "Royal Swedish Academy of Sciences"
+    #     date: 1921-11-01
+    #     awarder: Royal Swedish Academy of Sciences
+    #     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+    #   - title: Max Planck Medal
+    #     authors:
+    #       - "German Physical Society"
+    #     date: 2029
+    #     awarder: German Physical Society
+    #     summary: Awarded for outstanding scientific achievement
+
+    # Publications:
+    #   - title: Zur Elektrodynamik bewegter Körper
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-06-30
+    #     url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+    #     summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+
+    #   - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-03-18
+    #     url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+    #     summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+
+    #   - title: Die Grundlage der allgemeinen Relativitätstheorie
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1916-03-20
+    #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+    #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
+
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
+
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
+
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
+
