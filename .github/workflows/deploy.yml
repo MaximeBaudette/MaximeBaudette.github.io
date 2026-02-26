@@ -39,6 +39,21 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Download icon fonts 🔤
+        run: |
+          FA_VERSION="6.7.1"
+          TI_VERSION="3.20.0"
+          # Font Awesome 6 Free — goes into assets/webfonts/ (default $fa-font-path)
+          mkdir -p assets/webfonts
+          for f in fa-brands-400 fa-regular-400 fa-solid-900; do
+            curl -sfL "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/${FA_VERSION}/webfonts/${f}.woff2" -o "assets/webfonts/${f}.woff2"
+            curl -sfL "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/${FA_VERSION}/webfonts/${f}.ttf"   -o "assets/webfonts/${f}.ttf"
+          done
+          # Tabler Icons — goes into assets/fonts/ ($ti-font-path overridden in main.scss)
+          for f in tabler-icons.woff2 tabler-icons.woff tabler-icons.ttf; do
+            curl -sfL "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@${TI_VERSION}/dist/fonts/${f}" -o "assets/fonts/${f}"
+          done
+
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade nbconvert

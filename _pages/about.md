@@ -12,7 +12,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Researcher in Energy Technologies</p>
-    <p>Oakland, CA 94608</p>
+    <p>Oakland, CA</p>
 
 selected_papers: false
 social: true
