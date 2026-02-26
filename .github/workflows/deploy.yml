@@ -3,7 +3,7 @@ name: Deploy site
 on:
   push:
     branches:
-      - new_style
+      - master
     paths:
       - "assets/**"
       - "_sass/**"
@@ -54,5 +54,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: master
+          branch: gh-pages
           folder: _site
