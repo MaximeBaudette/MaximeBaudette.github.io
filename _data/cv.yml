@@ -1,0 +1,81 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Maxime Baudette
+    - name: Location
+      value: Oakland, CA, USA
+    - name: Email
+      value: baudette@lbl.gov
+    - name: Languages
+      value: French, English, Swedish, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Electric Power and Energy Systems
+      institution: KTH Royal Institute of Technology, Stockholm, Sweden
+      year: 2013 - present
+      description:
+        - "PMU-based Model Calibration for Power Systems and Control Optimization"
+        - "Supervisor: Prof. Luigi Vanfretti, SmarTS-Lab"
+    - title: MSc in Electrical Engineering
+      institution: KTH Royal Institute of Technology & CentraleSupélec
+      year: 2011 - 2013
+    - title: Engineering Degree
+      institution: CentraleSupélec (Supélec), Paris, France
+      year: 2009 - 2013
+    - title: Classes Préparatoires aux Grandes Écoles
+      institution: France
+      year: 2007 - 2009
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Scientific Engineering Associate
+      institution: Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA
+      year: Aug 2018 - present
+      description:
+        - Advanced distribution grid control using Distributed Energy Resources (DER)
+        - Phasor-based control methods and extremum seeking control algorithms
+        - Hardware-in-the-Loop validation and field demonstrations
+    - title: Visiting Researcher
+      institution: Lawrence Berkeley National Laboratory (LBNL), Berkeley, CA
+      year: Jan - May 2018
+    - title: Research Engineer
+      institution: KTH Royal Institute of Technology, Stockholm, Sweden
+      year: March - June 2013
+      description:
+        - SmarTS-Lab — synchrophasor applications and real-time power system simulation
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Advanced
+      items:
+        - Python
+        - MATLAB
+        - Modelica
+        - LabVIEW
+        - Opal-RT (Real-Time Simulation)
+    - title: Intermediate
+      items:
+        - Git
+        - Java
+        - LaTeX
+        - MS Office
+    - title: Basic
+      items:
+        - C
+        - Docker
+        - HTML
+        - LabVIEW RT/FPGA
+        - PHP
+
+- title: Languages
+  type: list
+  contents:
+    - "French (native)"
+    - "English (advanced)"
+    - "Swedish (intermediate)"
+    - "German (basic)"
