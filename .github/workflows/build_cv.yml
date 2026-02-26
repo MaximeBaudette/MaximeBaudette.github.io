@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install RenderCV
-        run: pip install rendercv
+        run: pip install "rendercv[full]"
       - name: RenderCV
         run: |
           cv_file=$(find _data  -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
