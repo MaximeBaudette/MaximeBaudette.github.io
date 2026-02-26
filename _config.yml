@@ -230,9 +230,9 @@ jekyll-archives:
   posts:
     enabled: [year, tags, categories]
     layouts:
-      year: archive-taxonomy
-      tags: archive-taxonomy
-      categories: archive-taxonomy
+      year: archive
+      tags: archive
+      categories: archive
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/tag/:name/"
