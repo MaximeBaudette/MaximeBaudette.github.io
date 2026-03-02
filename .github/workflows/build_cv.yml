@@ -6,7 +6,6 @@ on:
       - dev
     paths:
       - "_data/cv.yml"
-      - "assets/rendercv/convert_cv.py"
       - "assets/rendercv/design.yaml"
       - "assets/rendercv/locale.yaml"
       - "assets/rendercv/settings.yaml"
@@ -25,12 +24,9 @@ jobs:
           python-version: "3.12"
       - name: Install RenderCV
         run: pip install "rendercv[full]"
-      - name: Convert CV to rendercv format
-        run: python assets/rendercv/convert_cv.py > assets/rendercv/cv.yaml
-
       - name: RenderCV
         run: |
-          rendercv render assets/rendercv/cv.yaml --settings assets/rendercv/settings.yaml
+          rendercv render _data/cv.yml --settings assets/rendercv/settings.yaml
           rm -f assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
