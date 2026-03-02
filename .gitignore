@@ -9,6 +9,9 @@ CLAUDE.md
 _site
 node_modules
 
+# Generated rendercv intermediate (source is _data/cv.yml)
+assets/rendercv/cv.yaml
+
 # Downloaded/generated assets (populated by npm + deploy script)
 _sass/font-awesome
 _sass/tabler-icons
