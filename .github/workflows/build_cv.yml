@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -28,20 +30,15 @@ jobs:
         run: |
           rendercv render _data/cv.yml --settings assets/rendercv/settings.yaml
           rm -f assets/rendercv/rendercv_output/*.typ
-      - name: Upload rendercv_output as an artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: RenderCV Output
-          path: assets/rendercv/rendercv_output
-      - name: Push PDF to gh-pages
+      - name: Copy PDF to assets/pdf
         run: |
+          mkdir -p assets/pdf
           PDF_FILE=$(ls assets/rendercv/rendercv_output/*.pdf | head -1)
+          cp "$PDF_FILE" assets/pdf/cv.pdf
+      - name: Commit PDF to master
+        run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git fetch origin gh-pages
-          git checkout gh-pages
-          mkdir -p assets/pdf
-          cp "$PDF_FILE" assets/pdf/cv.pdf
           git add assets/pdf/cv.pdf
           git diff --cached --quiet || git commit -m "chore: render the latest CV"
-          git push origin gh-pages
+          git push origin ${{ github.ref_name }}
