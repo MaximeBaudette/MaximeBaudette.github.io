@@ -8,7 +8,7 @@ subtitle: >
 
 profile:
   align: right
-  image: profile_picture_homepage.png
+  image: profile_picture_homepage.webp
   image_circular: false
   more_info: >
     <p>Researcher in Energy Technologies</p>
