@@ -14,19 +14,6 @@ cp node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2   asse
 cp node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf     assets/webfonts/
 
 # Tabler Icons
-mkdir -p _sass/tabler-icons assets/fonts
-cp node_modules/@tabler/icons-webfont/dist/tabler-icons.scss          _sass/tabler-icons/
-cp node_modules/@tabler/icons-webfont/dist/tabler-icons-filled.scss   _sass/tabler-icons/
-cp node_modules/@tabler/icons-webfont/dist/tabler-icons-outline.scss  _sass/tabler-icons/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.woff2         assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.woff          assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons.ttf           assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons-filled.woff2  assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons-filled.woff   assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons-filled.ttf    assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons-outline.woff2 assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons-outline.woff  assets/fonts/
-cp node_modules/@tabler/icons-webfont/dist/fonts/tabler-icons-outline.ttf   assets/fonts/
 
 # Bootstrap
 cp node_modules/bootstrap/dist/css/bootstrap.min.css      assets/css/
