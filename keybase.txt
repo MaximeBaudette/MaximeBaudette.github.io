@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/maxime44
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.baudette.fr
+  * I am maxime44 (https://keybase.io/maxime44) on keybase.
+  * I have a public key ASDg6DMfsQwacl957xqSQrEKkO1kh8bhGQl4hKq8VEc1Dgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c33fc7b3ea035211947e48c96ef0cc59b1b5041cfa29eddd98700970c9d9ec2e0a",
+      "host": "keybase.io",
+      "kid": "0120e0e8331fb10c1a725f79ef1a9242b10a90ed6487c6e119097884aabc5447350e0a",
+      "uid": "35af532ec7c01f136962852085228319",
+      "username": "maxime44"
+    },
+    "merkle_root": {
+      "ctime": 1525244166,
+      "hash": "5f6abd78ab92225ca44aac973a9b6a038c912334e1fefe15004eeccec777872c412c5ed8db9ac423cd7aefc55b1d4f3148404e8c98ac445d0f5cc42770b5fca5",
+      "hash_meta": "7c1d3ec19dfeca7d7b6780184f0cfbd1b71ded679c3cad342beed52b972042b8",
+      "seqno": 2468898
+    },
+    "service": {
+      "entropy": "2+FZZrGWRMvnOMvIRo17Uwdj",
+      "hostname": "www.baudette.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1525244185,
+  "expire_in": 504576000,
+  "prev": "183337a74cf93b7267664c1c16f87eed08dccb5c6f21a10b5b74e6e16cc15954",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4OgzH7EMGnJfee8akkKxCpDtZIfG4RkJeISqvFRHNQ4Kp3BheWxvYWTESpcCH8QgGDM3p0z5O3JnZkwcFvh+7Qjcy1xvIaELW3Tm4WzBWVTEIE1K5cZ/LIP7PCo0ShST8xRAI3jgiNzoAfu8HmZo+HSUAgHCo3NpZ8RA7RlyqqxePOHtxF5oZP7qSe8UCGGExDu/IbWDWuLUrj6ZXTmbZ02Sp6wuK3CEMC4u20HjxchMExO5HkPsds61CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBIe2FWmj+yyN4rfw1BT9Ap4vjTFDzvA78JsW5pQXI+So3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/maxime44
+
+==================================================================

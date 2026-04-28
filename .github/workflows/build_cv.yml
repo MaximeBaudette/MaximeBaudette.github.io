@@ -1,0 +1,40 @@
+name: Render a CV
+on:
+  push:
+    branches:
+      - master
+      - dev
+    paths:
+      - "_data/cv.yml"
+      - "assets/rendercv/design.yaml"
+      - "assets/rendercv/locale.yaml"
+      - "assets/rendercv/settings.yaml"
+  workflow_call:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rendercv:
+    name: RenderCV
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install RenderCV
+        run: pip install "rendercv[full]"
+      - name: RenderCV
+        run: |
+          rendercv render _data/cv.yml --settings assets/rendercv/settings.yaml
+          rm -f assets/rendercv/rendercv_output/*.typ
+      - name: Upload CV PDF to R2
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: |
+            r2 object put public-resources/cv.pdf \
+              --file=assets/rendercv/rendercv_output/Maxime_Baudette_CV.pdf \
+              --content-type=application/pdf \
+              --remote
