@@ -288,6 +288,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [All Contributors](#all-contributors)
   - [Star History](#star-history)
   - [License](#license)
+- [Trigger rebuild for upstream template](#trigger-rebuild-for-upstream-template)
 
 <!--te-->
 
