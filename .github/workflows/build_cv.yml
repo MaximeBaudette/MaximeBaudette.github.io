@@ -2,7 +2,7 @@ name: Render a CV
 on:
   push:
     branches:
-      - master
+      - main
       - dev
     paths:
       - "_data/cv.yml"
