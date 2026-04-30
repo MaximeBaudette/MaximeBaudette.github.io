@@ -29,3 +29,4 @@ assets/js/search/ninja-keys.min.js
 AGENTS.md
 .wrangler
 TODO*
+.venv-scholarly/

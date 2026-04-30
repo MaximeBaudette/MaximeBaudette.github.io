@@ -1,0 +1,179 @@
+metadata:
+  last_updated: '2026-04-30'
+papers:
+  Y8VOdUIAAAAJ:0EnyYjriUFMC:
+    citations: 107
+    title: 'iTesla Power Systems Library (iPSL): A Modelica library for phasor time-domain simulations'
+    year: '2016'
+  Y8VOdUIAAAAJ:3fE2CSJIrl8C:
+    citations: 7
+    title: "\u2018In Silico\u2019testing of a decentralized PMU data-based power systems mode estimator"
+    year: '2016'
+  Y8VOdUIAAAAJ:4DMP91E08xMC:
+    citations: 9
+    title: "Audur\u2014A platform for synchrophasor-based power system wide-area control system implementation"
+    year: '2018'
+  Y8VOdUIAAAAJ:4JMBOYKVnBMC:
+    citations: 4
+    title: An open data repository and a data processing toolset of an equivalent nordic grid model matched to historical power flow data
+    year: '2016'
+  Y8VOdUIAAAAJ:4TOpqqG69KYC:
+    citations: 3
+    title: RT-HIL hardware prototyping of synchrophasor and active load-based power system oscillation damping controllers
+    year: '2016'
+  Y8VOdUIAAAAJ:7PzlFSSx8tAC:
+    citations: 6
+    title: HIL-validation of an Extremum Seeking-based Controller for Advanced DER Management
+    year: '2020'
+  Y8VOdUIAAAAJ:8k81kl-MbHgC:
+    citations: 24
+    title: 'RaPId: A modular and extensible toolbox for parameter estimation of Modelica and FMI compliant models'
+    year: '2016'
+  Y8VOdUIAAAAJ:9yKSN-GCB0IC:
+    citations: 6
+    title: Fast Real-time Detection of Sub-Synchronous Oscillations in Power Systems using Synchrophasors
+    year: '2013'
+  Y8VOdUIAAAAJ:HDshCWvjkbEC:
+    citations: 4
+    title: RaPId-A parameter estimation toolbox for modelica/FMI-based models exploiting global optimization methods
+    year: '2021'
+  Y8VOdUIAAAAJ:IjCSPb-OGe4C:
+    citations: 12
+    title: Validating a real-time PMU-based application for monitoring of sub-synchronous wind farm oscillations
+    year: '2014'
+  Y8VOdUIAAAAJ:KlAtU1dfN6UC:
+    citations: 39
+    title: An open data repository and a data processing software toolset of an equivalent Nordic grid model matched to historical electricity market data
+    year: '2017'
+  Y8VOdUIAAAAJ:L8Ckcad2t8MC:
+    citations: 2
+    title: Batch measurement extremum seeking control of distributed energy resources to account for communication delays and information loss
+    year: '2020'
+  Y8VOdUIAAAAJ:LkGwnXOMwfcC:
+    citations: 19
+    title: Modelica implementation and software-to-software validation of power system component models commonly used by nordic TSOs for dynamic simulations
+    year: '2015'
+  Y8VOdUIAAAAJ:M3ejUd6NZC8C:
+    citations: 83
+    title: "OpenIPSL: Open-instance power system library\u2014update 1.5 to \u201CiTesla power systems library (iPSL): A modelica library for phasor time-domain simulations\u201D"
+    year: '2018'
+  Y8VOdUIAAAAJ:RHpTSmoSYBkC:
+    citations: 1
+    title: 'S3DK: An Open Source Toolkit for Prototyping Synchrophasor Applications'
+    year: '2024'
+  Y8VOdUIAAAAJ:Se3iqnhoufwC:
+    citations: 29
+    title: "A phasor measurement unit based fast real-time oscillation detection application for monitoring wind-farm-to-grid sub\u2013synchronous dynamics"
+    year: '2016'
+  Y8VOdUIAAAAJ:TFP_iSt0sucC:
+    citations: 11
+    title: Federated architecture for secure and transactive distributed energy resource management solutions (fast-derms)
+    year: '2022'
+  Y8VOdUIAAAAJ:TQgYirikUcIC:
+    citations: 3
+    title: Hardware-in-the-loop benchmarking setup for phasor based control validation
+    year: '2021'
+  Y8VOdUIAAAAJ:Tyk-4Ss8FVUC:
+    citations: 38
+    title: Synchrophasor network, laboratory and software applications developed in the STRONg2rid project
+    year: '2014'
+  Y8VOdUIAAAAJ:ULOm3_A8WrAC:
+    citations: 4
+    title: Implementation of a continuous integration workflow for a power system Modelica library
+    year: '2017'
+  Y8VOdUIAAAAJ:UeHWp8X0CEIC:
+    citations: 9
+    title: Implementation and testing of a real-time mode estimation algorithm using ambient PMU data
+    year: '2014'
+  Y8VOdUIAAAAJ:UebtZRa9Y70C:
+    citations: 27
+    title: Monitoring and control of renewable energy sources using synchronized phasor measurements
+    year: '2017'
+  Y8VOdUIAAAAJ:WF5omc3nYNoC:
+    citations: 7
+    title: RT-SIL performance analysis of synchrophasor-and-active load-based power system damping controllers
+    year: '2015'
+  Y8VOdUIAAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: A Fundamental Time-Domain and Linearized Eigenvalue Analysis of Coalesced Power Transmission and Unbalanced Distribution Grids using Modelica and the OpenIPSL
+    year: Unknown Year
+  Y8VOdUIAAAAJ:YOwf2qJgpHMC:
+    citations: 17
+    title: "BabelFish\u2014Tools for IEEE C37. 118.2-compliant real-time synchrophasor data mediation"
+    year: '2017'
+  Y8VOdUIAAAAJ:YsMSGLbcyi4C:
+    citations: 3
+    title: Validation experiment design of a PMU-based application for detection of sub-synchronous oscillations
+    year: '2015'
+  Y8VOdUIAAAAJ:_kc_bZDykSQC:
+    citations: 18
+    title: Utilizing synchrophasor-based supplementary damping control signals in conventional generator excitation systems
+    year: '2018'
+  Y8VOdUIAAAAJ:aqlVkmm33-oC:
+    citations: 7
+    title: 'The STRONgrid library: A modular and extensible software library for IEEE C37. 118.2 compliant synchrophasor data mediation'
+    year: '2018'
+  Y8VOdUIAAAAJ:bEWYMUwI8FkC:
+    citations: 3
+    title: Federated controls for distributed energy resource management applied to a feeder with high solar generation and battery storage
+    year: '2025'
+  Y8VOdUIAAAAJ:d1gkVwhDpl0C:
+    citations: 26
+    title: Testing and validation of a fast real-time oscillation detection PMU-based application for wind-farm monitoring
+    year: '2013'
+  Y8VOdUIAAAAJ:dhFuZR0502QC:
+    citations: 0
+    title: Extremum Seeking Library (ESL) v1. 0
+    year: '2019'
+  Y8VOdUIAAAAJ:eQOLeE2rZwMC:
+    citations: 19
+    title: A PMU-based fast real-time sub-synchronous oscillation detection application
+    year: '2015'
+  Y8VOdUIAAAAJ:hC7cP41nSMkC:
+    citations: 6
+    title: 'Implementation of an extremum seeking controller for distributed energy resources: practical considerations'
+    year: '2020'
+  Y8VOdUIAAAAJ:hFOr9nPyWt4C:
+    citations: 6
+    title: Phasor based control with the distributed, extensible grid control platform
+    year: '2021'
+  Y8VOdUIAAAAJ:isC4tDSrTZIC:
+    citations: 0
+    title: Flexible Resource Scheduler for FAST-DERMS (FRS-FASTDERMS) v0. 9
+    year: '2025'
+  Y8VOdUIAAAAJ:j3f4tGmQtD8C:
+    citations: 4
+    title: Short-term Load Forecasting Considering EV Charging Loads with Prediction Interval Evaluation
+    year: '2024'
+  Y8VOdUIAAAAJ:kNdYIx-mwKoC:
+    citations: 3
+    title: "\u2018In silico\u2019testing of a real-time PMU-based tool for power system mode estimation"
+    year: '2016'
+  Y8VOdUIAAAAJ:mB3voiENLucC:
+    citations: 1
+    title: Field demonstration of inverter-based voltage management using extremum seeking control
+    year: '2021'
+  Y8VOdUIAAAAJ:qUcmZB5y_30C:
+    citations: 2
+    title: A modelica library for continuous and discrete extremum seeking for static and dynamic systems
+    year: '2020'
+  Y8VOdUIAAAAJ:qxL8FJ1GzNcC:
+    citations: 4
+    title: Modeling and simulation of a hybrid single-phase/three-phase system in modelica
+    year: '2018'
+  Y8VOdUIAAAAJ:u-x6o8ySG0sC:
+    citations: 20
+    title: A Modelica power system component library for model validation and parameter identification
+    year: '2014'
+  Y8VOdUIAAAAJ:u5HHmVD_uO8C:
+    citations: 1
+    title: Equipos para medidas precisas de fase en tension corriente para redes inteligentes
+    year: '2013'
+  Y8VOdUIAAAAJ:ufrVoPGSRksC:
+    citations: 54
+    title: Specification, implementation, and hardware-in-the-loop real-time simulation of an active distribution grid
+    year: '2015'
+  Y8VOdUIAAAAJ:zYLM7Y9cAGgC:
+    citations: 22
+    title: Power system model identification exploiting the Modelica language and FMI technologies
+    year: '2014'
