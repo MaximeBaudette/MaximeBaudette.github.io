@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-30'
+  last_updated: '2026-05-20'
 papers:
   Y8VOdUIAAAAJ:0EnyYjriUFMC:
-    citations: 107
+    citations: 108
     title: 'iTesla Power Systems Library (iPSL): A Modelica library for phasor time-domain simulations'
     year: '2016'
   Y8VOdUIAAAAJ:3fE2CSJIrl8C:
@@ -86,7 +86,7 @@ papers:
     title: Implementation and testing of a real-time mode estimation algorithm using ambient PMU data
     year: '2014'
   Y8VOdUIAAAAJ:UebtZRa9Y70C:
-    citations: 27
+    citations: 28
     title: Monitoring and control of renewable energy sources using synchronized phasor measurements
     year: '2017'
   Y8VOdUIAAAAJ:WF5omc3nYNoC:
