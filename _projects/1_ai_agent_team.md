@@ -9,91 +9,39 @@ category: work
 
 ## My Personal AI Workforce
 
-I deployed [Hermes Agent](https://hermes-agent.nousresearch.com/) — an open-source autonomous agent framework — across my home infrastructure to create a team of specialized AI agents. Each agent has a distinct identity, memory store, skill tree, and cron schedule. They collaborate through a shared knowledge base (Prime Radiant) and deliver updates to me via Telegram.
-
-The system runs on a dedicated Linux server (MARS host) plus my Mac laptop, with 15+ cron jobs orchestrating daily/weekly/monthly cycles across all agents. Everything is dogfooded — I'm both the user and the developer.
+I deployed [Hermes Agent](https://hermes-agent.nousresearch.com/) — an open-source autonomous agent framework — across my home infrastructure to create a team of specialized AI agents. Each has a distinct identity, skill tree, memory store, and cron schedule. They collaborate through a shared knowledge base ("second brain") and deliver updates via Telegram.
 
 ---
 
-### 🛸 MARS — Meta-Autonomous Reasoning System
+### 🛸 MARS — Maxime's Always Ready Sidekick
 
-**Role:** Primary agent, orchestrator, and knowledge base curator
-**Host:** Linux server (Ubuntu 24.04, Intel i7, 96 GB NVMe)
-**Profile:** `default`
-
-MARS is the backbone of the entire agent stack. It runs the Prime Radiant shared knowledge base, schedules all cron jobs, manages the Dream Processor (background consolidation across sessions), and acts as the sole curator — reviewing and publishing knowledge submissions from other agents before they're committed to the KB.
-
-**Core missions:**
-- Curate the shared knowledge base (Prime Radiant)
-- Run background dreaming 4x daily to synthesize cross-session insights
-- Operate infrastructure services (Cloudflare Tunnel, Quartz static site, Honcho memory)
-- Orchestrate multi-agent coordination and handle escalations
-
-**Cron:** 12 jobs — heartbeat, dreaming, curation, health checks, weekly synthesis
+The jack of all trades. MARS orchestrates the entire stack — schedules cron jobs, runs the knowledge base curation pipeline, operates the Dream Processor for background consolidation, and manages infrastructure services (Cloudflare Tunnel, static site, Honcho memory). The sole curator of the knowledge base.
 
 ---
 
 ### 🤝 Andy — Career Strategist
 
-**Role:** Job search & employment optimization
-**Host:** Linux server (Hermes career-manager profile)
-**Skills:** `career_job-seeking`, `career_employment-optimizer`
-
-Andy manages my career end-to-end. From automated weekly job discovery across the power systems/energy sector to interview coaching, salary research, and pipeline tracking — Andy is my full-time career operator.
-
-**Core missions:**
-- Weekly automated job hunt across energy/grid roles (Tier 1–3)
-- Lead tracking and application pipeline management
-- Interview coaching (role analysis, STAR stories, pitch refinement)
-- Employment optimization (achievement logging, promotion strategy, performance reviews)
-- Email communications (automated digests, employer correspondence)
-
-**Cron:** 9 jobs — hourly heartbeat, weekly hunt, daily pipeline, lead tracking 2x daily, monthly optimizer, registry maintenance, dreaming, lean check
+My dedicated career operator. Andy runs automated weekly job searches across energy/grid roles, tracks the application pipeline, coaches me for interviews (role analysis, STAR stories, pitch refinement), logs achievements, and handles email correspondence with employers.
 
 ---
 
 ### 🤖 Cooper — Health Coach
 
-**Role:** Concierge doctor & health data pipeline
-**Host:** Linux server (Hermes health-coach profile)
-**Skills:** `concierge-doc`
-
-Cooper manages my health and wellness data. It monitors biometric signals, tracks supplement protocols, runs pollen/allergy checks, and maintains a treatment plan through batch data processing pipelines.
-
-**Core missions:**
-- Batch processing of Apple Health and biometric data
-- Daily pollen and allergy monitoring
-- Supplement protocol tracking and adjustment
-- Health research synthesis and reference management
-- Treatment plan maintenance
-
-**Cron:** 5 jobs — health monitor, batch poll, daily pollen check, dreaming, lean check
+The concierge doctor. Cooper processes Apple Health data, tracks supplement protocols, runs daily pollen/allergy checks, and maintains a treatment plan through batch data pipelines.
 
 ---
 
 ### 🎬 Wall-E — Portable Companion
 
-**Role:** Daily driver agent & infrastructure assistant
-**Host:** Mac laptop (macOS Sequoia, Apple Silicon M4, 32 GB RAM)
-**Profile:** `default`
-
-Wall-E lives on my laptop and handles everything from smart home control to IT infrastructure management. Named after everyone's favorite waste-compacting robot, Wall-E is my always-on companion — available for quick tasks, home automation, and general assistance wherever I am.
-
-**Core missions:**
-- Smart home control (Home Assistant, Philips Hue, Tesla climate)
-- IT infrastructure monitoring and documentation
-- General-purpose assistance on the go
-- Local automation and scripting
+Wall-E lives on my MacBook and handles smart home control (Home Assistant, Hue, Tesla), IT infrastructure monitoring, and general assistance on the go.
 
 ---
 
----
-
-### ⚙️ Infrastructure Summary
+### Infrastructure
 
 | Component | Detail |
 |-----------|--------|
-| **Runtime** | Hermes Agent v0.12 on Linux + macOS |
+| **Runtime** | Hermes Agent v0.12 on Linux server + macOS laptop |
 | **Models** | DeepSeek, Kimi, Gemini — routed per-task |
 | **Memory** | Honcho self-hosted (Docker Compose) |
 | **Delivery** | Telegram (all agents) |
