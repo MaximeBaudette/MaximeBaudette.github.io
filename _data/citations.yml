@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-27'
 papers:
   Y8VOdUIAAAAJ:0EnyYjriUFMC:
     citations: 108
@@ -42,7 +42,7 @@ papers:
     title: Validating a real-time PMU-based application for monitoring of sub-synchronous wind farm oscillations
     year: '2014'
   Y8VOdUIAAAAJ:KlAtU1dfN6UC:
-    citations: 39
+    citations: 40
     title: An open data repository and a data processing software toolset of an equivalent Nordic grid model matched to historical electricity market data
     year: '2017'
   Y8VOdUIAAAAJ:L8Ckcad2t8MC:
@@ -142,7 +142,7 @@ papers:
     title: Flexible Resource Scheduler for FAST-DERMS (FRS-FASTDERMS) v0. 9
     year: '2025'
   Y8VOdUIAAAAJ:j3f4tGmQtD8C:
-    citations: 4
+    citations: 5
     title: Short-term Load Forecasting Considering EV Charging Loads with Prediction Interval Evaluation
     year: '2024'
   Y8VOdUIAAAAJ:kNdYIx-mwKoC:
