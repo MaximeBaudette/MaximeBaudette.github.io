@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-15'
 papers:
   Y8VOdUIAAAAJ:0EnyYjriUFMC:
-    citations: 108
+    citations: 110
     title: 'iTesla Power Systems Library (iPSL): A Modelica library for phasor time-domain simulations'
     year: '2016'
   Y8VOdUIAAAAJ:3fE2CSJIrl8C:
@@ -10,7 +10,7 @@ papers:
     title: "\u2018In Silico\u2019testing of a decentralized PMU data-based power systems mode estimator"
     year: '2016'
   Y8VOdUIAAAAJ:4DMP91E08xMC:
-    citations: 9
+    citations: 10
     title: "Audur\u2014A platform for synchrophasor-based power system wide-area control system implementation"
     year: '2018'
   Y8VOdUIAAAAJ:4JMBOYKVnBMC:
@@ -54,7 +54,7 @@ papers:
     title: Modelica implementation and software-to-software validation of power system component models commonly used by nordic TSOs for dynamic simulations
     year: '2015'
   Y8VOdUIAAAAJ:M3ejUd6NZC8C:
-    citations: 83
+    citations: 86
     title: "OpenIPSL: Open-instance power system library\u2014update 1.5 to \u201CiTesla power systems library (iPSL): A modelica library for phasor time-domain simulations\u201D"
     year: '2018'
   Y8VOdUIAAAAJ:RHpTSmoSYBkC:
@@ -66,7 +66,7 @@ papers:
     title: "A phasor measurement unit based fast real-time oscillation detection application for monitoring wind-farm-to-grid sub\u2013synchronous dynamics"
     year: '2016'
   Y8VOdUIAAAAJ:TFP_iSt0sucC:
-    citations: 11
+    citations: 12
     title: Federated architecture for secure and transactive distributed energy resource management solutions (fast-derms)
     year: '2022'
   Y8VOdUIAAAAJ:TQgYirikUcIC:
@@ -142,7 +142,7 @@ papers:
     title: Flexible Resource Scheduler for FAST-DERMS (FRS-FASTDERMS) v0. 9
     year: '2025'
   Y8VOdUIAAAAJ:j3f4tGmQtD8C:
-    citations: 5
+    citations: 6
     title: Short-term Load Forecasting Considering EV Charging Loads with Prediction Interval Evaluation
     year: '2024'
   Y8VOdUIAAAAJ:kNdYIx-mwKoC:
