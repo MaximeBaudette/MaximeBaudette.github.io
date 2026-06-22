@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-06-22'
 papers:
   Y8VOdUIAAAAJ:0EnyYjriUFMC:
     citations: 110
@@ -54,7 +54,7 @@ papers:
     title: Modelica implementation and software-to-software validation of power system component models commonly used by nordic TSOs for dynamic simulations
     year: '2015'
   Y8VOdUIAAAAJ:M3ejUd6NZC8C:
-    citations: 86
+    citations: 87
     title: "OpenIPSL: Open-instance power system library\u2014update 1.5 to \u201CiTesla power systems library (iPSL): A modelica library for phasor time-domain simulations\u201D"
     year: '2018'
   Y8VOdUIAAAAJ:RHpTSmoSYBkC:
