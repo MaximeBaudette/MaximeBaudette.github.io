@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-13'
 papers:
   Y8VOdUIAAAAJ:0EnyYjriUFMC:
-    citations: 110
+    citations: 111
     title: 'iTesla Power Systems Library (iPSL): A Modelica library for phasor time-domain simulations'
     year: '2016'
   Y8VOdUIAAAAJ:3fE2CSJIrl8C:
@@ -26,7 +26,7 @@ papers:
     title: HIL-validation of an Extremum Seeking-based Controller for Advanced DER Management
     year: '2020'
   Y8VOdUIAAAAJ:8k81kl-MbHgC:
-    citations: 24
+    citations: 23
     title: 'RaPId: A modular and extensible toolbox for parameter estimation of Modelica and FMI compliant models'
     year: '2016'
   Y8VOdUIAAAAJ:9yKSN-GCB0IC:
@@ -42,7 +42,7 @@ papers:
     title: Validating a real-time PMU-based application for monitoring of sub-synchronous wind farm oscillations
     year: '2014'
   Y8VOdUIAAAAJ:KlAtU1dfN6UC:
-    citations: 40
+    citations: 39
     title: An open data repository and a data processing software toolset of an equivalent Nordic grid model matched to historical electricity market data
     year: '2017'
   Y8VOdUIAAAAJ:L8Ckcad2t8MC:
@@ -66,7 +66,7 @@ papers:
     title: "A phasor measurement unit based fast real-time oscillation detection application for monitoring wind-farm-to-grid sub\u2013synchronous dynamics"
     year: '2016'
   Y8VOdUIAAAAJ:TFP_iSt0sucC:
-    citations: 12
+    citations: 13
     title: Federated architecture for secure and transactive distributed energy resource management solutions (fast-derms)
     year: '2022'
   Y8VOdUIAAAAJ:TQgYirikUcIC:
@@ -118,7 +118,7 @@ papers:
     title: Federated controls for distributed energy resource management applied to a feeder with high solar generation and battery storage
     year: '2025'
   Y8VOdUIAAAAJ:d1gkVwhDpl0C:
-    citations: 26
+    citations: 27
     title: Testing and validation of a fast real-time oscillation detection PMU-based application for wind-farm monitoring
     year: '2013'
   Y8VOdUIAAAAJ:dhFuZR0502QC:
@@ -130,7 +130,7 @@ papers:
     title: A PMU-based fast real-time sub-synchronous oscillation detection application
     year: '2015'
   Y8VOdUIAAAAJ:hC7cP41nSMkC:
-    citations: 6
+    citations: 8
     title: 'Implementation of an extremum seeking controller for distributed energy resources: practical considerations'
     year: '2020'
   Y8VOdUIAAAAJ:hFOr9nPyWt4C:
