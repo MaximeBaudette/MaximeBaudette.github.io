@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-27'
 papers:
   Y8VOdUIAAAAJ:0EnyYjriUFMC:
     citations: 111
@@ -66,7 +66,7 @@ papers:
     title: "A phasor measurement unit based fast real-time oscillation detection application for monitoring wind-farm-to-grid sub\u2013synchronous dynamics"
     year: '2016'
   Y8VOdUIAAAAJ:TFP_iSt0sucC:
-    citations: 13
+    citations: 14
     title: Federated architecture for secure and transactive distributed energy resource management solutions (fast-derms)
     year: '2022'
   Y8VOdUIAAAAJ:TQgYirikUcIC:
